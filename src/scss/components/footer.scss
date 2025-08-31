@@ -1,0 +1,136 @@
+.footer {
+  background: #2a1306;
+
+  @include media(desktop) {
+  }
+}
+
+.footer-bg-wrapper {
+  padding-top: 38px;
+  padding-bottom: 38px;
+
+  @include media(desktop) {
+    padding-top: 73px;
+    padding-bottom: 72px;
+  }
+}
+
+.footer-container {
+}
+
+.footer-nav-wrapper {
+  @include media(desktop) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.footer-email-link {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff9e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 46px;
+
+  @include media(desktop) {
+    font-size: 16px;
+    margin-bottom: 0;
+    order: 3;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 4px;
+      height: 4px;
+      border-radius: 100%;
+      background-color: #fff9e1;
+      top: 50%;
+      left: -14px;
+    }
+  }
+}
+
+.footer-nav {
+  margin-bottom: 46px;
+
+  @include media(desktop) {
+    margin-bottom: 0;
+    order: 2;
+  }
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 4px;
+      height: 4px;
+      border-radius: 100%;
+      background-color: #fff9e1;
+      top: 50%;
+      left: -14px;
+    }
+  }
+}
+
+.footer-list-item {
+}
+
+.footer-link {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff9e1;
+
+  @include media(desktop) {
+  }
+}
+
+.footer-span {
+  display: none;
+
+  @include media(desktop) {
+    display: inline;
+  }
+}
+
+.footer-text {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff9e1;
+  text-align: center;
+
+  @include media(desktop) {
+    margin: 0;
+    order: 1;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 4px;
+      height: 4px;
+      border-radius: 100%;
+      background-color: #fff9e1;
+      top: 50%;
+      left: -14px;
+    }
+  }
+}
