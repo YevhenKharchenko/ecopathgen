@@ -1,0 +1,140 @@
+.tools-section {
+}
+
+.tools-bg-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1440px;
+  }
+}
+
+.tools-container {
+  padding: 0 13px;
+
+  @include media(desktop) {
+    padding: 0 82px;
+  }
+}
+
+.tools-title {
+  @include media(desktop) {
+  }
+}
+
+.tools-top-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    max-width: 681px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+}
+
+.tools-list-wrapper {
+  @include media(desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+}
+
+.tools-img {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    min-width: 564px;
+  }
+}
+
+.tools-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  @include media(desktop) {
+    gap: 10px;
+  }
+}
+
+.tools-list-item {
+  background: #fff;
+  border: 1px solid #2e6f40;
+  border-radius: 10px;
+  padding: 12px 0 12px 7px;
+  width: 100%;
+  max-width: 277px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  @include media(desktop) {
+    max-width: 663px;
+    padding: 8px 16px 8px 20px;
+    gap: 40px;
+  }
+}
+
+.tools-icon-wrapper {
+  border-radius: 100%;
+  background: #d6ffdf;
+  min-width: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+  }
+}
+
+.tools-icon {
+  @include media(desktop) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.tools-text-wrapper {
+}
+
+.tools-item-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 5px;
+
+  @include media(desktop) {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+.tools-item-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000;
+
+  @include media(desktop) {
+    font-size: 19px;
+  }
+}
