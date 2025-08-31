@@ -59,5 +59,24 @@
       <path fill="#2e6f40" d="M16 2C8.2 2 2 8.2 2 16s6.2 14 14 14 14-6.2 14-14S23.8 2 16 2zm0 26C9.4 28 4 22.6 4 16S9.4 4 16 4s12 5.4 12 12-5.4 12-12 12z" style="fill:var(--color2, #2e6f40)"/>
       <path fill="#2e6f40" d="M21.4 23 16 17.6 10.6 23 9 21.4l5.4-5.4L9 10.6 10.6 9l5.4 5.4L21.4 9l1.6 1.6-5.4 5.4 5.4 5.4-1.6 1.6z" style="fill:var(--color2, #2e6f40)"/>
     </symbol>
+    <symbol id="icon-target" viewBox="0 0 14 14">
+      <g clip-path="url(#clip0_57_178)">
+      <path d="M6.99996 12.8334C10.2216 12.8334 12.8333 10.2217 12.8333 7.00008C12.8333 3.77842 10.2216 1.16675 6.99996 1.16675C3.7783 1.16675 1.16663 3.77842 1.16663 7.00008C1.16663 10.2217 3.7783 12.8334 6.99996 12.8334Z" stroke="#2E6F40" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M6.99996 10.5001C8.93296 10.5001 10.5 8.93308 10.5 7.00008C10.5 5.06708 8.93296 3.50008 6.99996 3.50008C5.06696 3.50008 3.49996 5.06708 3.49996 7.00008C3.49996 8.93308 5.06696 10.5001 6.99996 10.5001Z" stroke="#2E6F40" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M6.99996 8.16675C7.64429 8.16675 8.16663 7.64441 8.16663 7.00008C8.16663 6.35575 7.64429 5.83342 6.99996 5.83342C6.35563 5.83342 5.83329 6.35575 5.83329 7.00008C5.83329 7.64441 6.35563 8.16675 6.99996 8.16675Z" stroke="#2E6F40" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <defs>
+        <clipPath id="clip0_57_178">
+         <rect width="14" height="14" fill="white"/>
+        </clipPath>
+      </defs>
+    </symbol>
+    <symbol id="icon-download" viewBox="0 0 24 24" fill="none">
+      <path d="M12 15V3M12 15L7 10M12 15L17 10M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="#2E6F40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-external-link" viewBox="0 0 24 24" fill="none">
+      <path d="M15 3H21M21 3V9M21 3L10 14M18 13V19C18 19.53 17.79 20.04 17.41 20.41C17.04 20.79 16.53 21 16 21H5C4.47 21 3.96 20.79 3.59 20.41C3.21 20.04 3 19.53 3 19V8C3 7.47 3.21 6.96 3.59 6.59C3.96 6.21 4.47 6 5 6H11"
+        stroke="#2E6F40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
   </defs>
 </svg>

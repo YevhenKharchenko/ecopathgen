@@ -1,96 +1,100 @@
 .contact-section {
-  background: #feedc7;
 }
 
 .contact-bg-wrapper {
-  padding-top: 140px;
-  padding-bottom: 67px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/contact/contact-bg-mob.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: auto;
 
   @include media(desktop) {
-    padding-top: 72px;
-    padding-bottom: 74px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     max-width: 1440px;
-    background-image: url(../img/contact/contact-bg-desk.png);
-    background-position: top left;
   }
 }
 
 .contact-container {
-}
+  padding: 0 13px;
 
-.contact-content-wrapper {
   @include media(desktop) {
-    max-width: max-content;
-    margin-left: auto;
+    padding: 0 72px;
   }
 }
 
 .contact-title {
-  margin-bottom: 14px;
-
   @include media(desktop) {
-    text-align: left;
-    margin-bottom: 42px;
-    margin-left: 79px;
   }
 }
 
 .contact-top-text {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
   text-align: center;
   color: #000;
-  max-width: 307px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 
   @include media(desktop) {
-    text-align: left;
-    font-weight: 700;
-    font-size: 22px;
-    max-width: 380px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 42px;
+    font-size: 24px;
+    max-width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
   }
+}
+
+.contact-address-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-link-wrapper {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 9px;
 
   @include media(desktop) {
-    max-width: max-content;
+    gap: 18px;
   }
 }
 
-.contact-info-link {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  color: #000;
-  margin-bottom: 1em;
+.contact-icon-wrapper {
+  border-radius: 100%;
+  background: #d6ffdf;
+  min-width: 31px;
+  min-height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   @include media(desktop) {
+    min-width: 50px;
+    min-height: 50px;
   }
 }
 
-.contact-routes-link {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
+.contact-icon {
+  @include media(desktop) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.contact-link {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
   color: #000;
-  margin-bottom: 1em;
+  max-width: 197px;
 
   @include media(desktop) {
+    font-size: 24px;
+    max-width: 328px;
   }
 }

@@ -1,0 +1,148 @@
+.examples-section {
+  background: #f7f7f7;
+}
+
+.examples-bg-wrapper {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 33px;
+    padding-bottom: 33px;
+    max-width: 1440px;
+  }
+}
+
+.examples-container {
+  padding: 0 13px;
+
+  @include media(desktop) {
+    padding: 0 62px;
+  }
+}
+
+.examples-title {
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+    margin-bottom: 50px;
+  }
+}
+
+.examples-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+.examples-list-item {
+  box-shadow: 0 11px 22px 0 rgba(0, 0, 0, 0.14);
+  background: #fff;
+  border-radius: 10px;
+  padding: 14px 12px;
+  width: 100%;
+  max-width: 336px;
+  display: flex;
+  flex-direction: column;
+
+  @include media(desktop) {
+    max-width: 405px;
+    padding: 20px 30px 16px 30px;
+  }
+}
+
+.examples-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+
+  @include media(desktop) {
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.examples-icon-wrapper {
+  border-radius: 100%;
+  background: #d6ffdf;
+  min-width: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+  }
+}
+
+.examples-icon {
+  @include media(desktop) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.examples-item-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  color: #000;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.examples-subtitle-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    margin-bottom: 12px;
+  }
+}
+
+.examples-target-icon {
+  fill: none;
+
+  @include media(desktop) {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.examples-subtitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #2e6f40;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.examples-item-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+
+  @include media(desktop) {
+    font-size: 19px;
+    max-width: 312px;
+  }
+}
