@@ -1,7 +1,7 @@
 .cookie-banner-section {
-  background: #acc7ff;
+  background: #2e6f40;
   border-radius: 30px 30px 0 0;
-  padding: 26px 14px;
+  padding: 30px 15px;
   width: 100%;
   max-width: 375px;
   margin: 0 auto;
@@ -14,7 +14,7 @@
   display: none;
 
   @include media(desktop) {
-    padding: 16px 111px 74px 19px;
+    padding: 85px 111px 85px 68px;
     max-width: 1440px;
   }
 }
@@ -28,37 +28,22 @@
 }
 
 .cookie-banner-text-wrapper {
-  display: flex;
-  justify-content: center;
-  gap: 17px;
-  margin-bottom: 25px;
+  margin-bottom: 34px;
 
   @include media(desktop) {
-    flex-direction: column;
-    gap: 8px;
     margin-bottom: 0;
   }
 }
 
-.banner-img {
-  min-width: 76px;
-
-  @include media(desktop) {
-    min-width: 98px;
-  }
-}
-
 .cookie-banner-text {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 0.04em;
-  color: #212121;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: #d6ffdf;
 
   @include media(desktop) {
-    margin-left: 72px;
-    font-size: 34px;
-    max-width: 796px;
+    font-size: 40px;
+    max-width: 814px;
   }
 }
 
@@ -72,51 +57,47 @@
   @include media(desktop) {
     gap: 50px;
     min-width: 352px;
-    position: relative;
-    top: 30px;
   }
 }
 
 .cookie-accept-btn {
-  background: #3362fa;
-  border: 1px solid #3362fa;
+  background: #d6ffdf;
+  border: 1px solid #d6ffdf;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 30px;
-  padding: 8px 32px;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
+  padding: 10px 32px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
   font-size: 20px;
-  letter-spacing: 0.04em;
-  color: #fff;
+  color: #2e6f40;
   width: 100%;
   max-width: 267px;
 
   @include media(desktop) {
-    padding: 10px 32px;
+    padding: 11px 32px;
     font-size: 24px;
     max-width: 352px;
   }
 }
 
 .cookie-decline-btn {
-  border: 2px solid #3362fa;
+  border: 2px solid #d6ffdf;
   border-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 32px;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
+  padding: 10px 32px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
   font-size: 20px;
-  letter-spacing: 0.04em;
-  color: #3362fa;
+  color: #d6ffdf;
   width: 100%;
   max-width: 267px;
 
   @include media(desktop) {
-    padding: 10px 32px;
+    padding: 11px 32px;
     font-size: 24px;
     max-width: 352px;
   }
